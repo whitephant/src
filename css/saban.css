@@ -1,0 +1,42 @@
+@import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Alef Hebrew",
+               “Helvetica Neue”,
+               Helvetica,
+               Arial,
+               sans-serif;
+    background-color: #F0EAE8;
+    background-image:url('../img/bg.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+	 position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+}
+.rects {
+	padding: 30px;
+	background-color: rgba(255, 255, 255,.8);
+}
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+.top-buffer {
+	margin-top:50px;
+	}
